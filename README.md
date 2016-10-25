@@ -138,8 +138,8 @@ need for analysis:
  1. rake -f rake/norms.rake
  2. rake -f rake/models.rake
  3. rake -f rake/lens.rake
- 4.(a) rake -f rake/lens.rake train # this will fit all models
- 4.(b) rake -f rake/lens.rake out/combined\_norm\_combined\_0.csv # this
+ 4. (a) rake -f rake/lens.rake train # this will fit all models
+ 4. (b) rake -f rake/lens.rake out/combined\_norm\_combined\_0.csv # this
 will fit a model that makes predictions about combined data, fitting
 combined data, with the first holdout set.
 
