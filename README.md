@@ -1,8 +1,8 @@
 Dependencies
 ============
-Ruby: Rake (shipped with Ruby)
-R: Rscript (shipped with R), argparser
-tcl:
+- Ruby: Rake (shipped with Ruby)
+- R: Rscript (shipped with R), argparser
+- tcl:
 
 Modeling the relationships among representational spaces
 ========================================================
@@ -125,11 +125,11 @@ workflows---they are kind of like Makefiles, but everything is in pure
 Note that there are two environment variables that will effect the steps
 to follow:
 
- - DIMENSION\_NORM (this should be set to the number of dimensions in the NORM
+ - `DIMENSION_NORM` (this should be set to the number of dimensions in the NORM
    based model (i.e., metric embedding).
- - DIMENSION\_NEXT (this should be set to the number of dimensions in the NEXT
+ - `DIMENSION_NEXT` (this should be set to the number of dimensions in the NEXT
    based model (i.e., metric embedding).
- - NHIDDEN (will define the number of units in a hidden layer between
+ - `NHIDDEN` (will define the number of units in a hidden layer between
    input and output. If `0`, the hidden layer is ommitted.)
 
 Once those variables are set, the following will prepare the files you
